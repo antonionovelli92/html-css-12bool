@@ -2,3 +2,13 @@
 body {
     font-family: sans-serif;
 }
+
+.row {
+    border: 1px solid black;
+}
+
+.row>[class^="col"] {
+    min-height: 80px;
+    background-color: lightskyblue;
+    border: 1px solid white;
+}
