@@ -6,7 +6,7 @@ body {
 }
 
 .row {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -25,5 +25,4 @@ body {
 /* colonna dentro un'altra colonna */
 .row>[class^="col"] [class^="col"] {
     background-color: greenyellow;
-
 }

@@ -40,6 +40,7 @@
 * ********** GRIGLIA ********
 * *************************** */
 
+
 .row>.col-12 {
     flex-basis: 100%;
     max-width: 100%;
@@ -99,4 +100,64 @@
 .row>.col-1 {
     flex-basis: calc(100% / 12);
     max-width: calc(100% / 12);
+}
+
+
+/* *************************
+* ********** OFFSET ********
+* ************************** */
+
+
+
+.row>[class^="col"].offset-12 {
+    margin-left: 100%;
+}
+
+.row>[class^="col"].offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
+
+.row>[class^="col"].offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+
+.row>[class^="col"].offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+
+.row>[class^="col"].offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+
+.row>[class^="col"].offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+
+
+.row>[class^="col"].offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+
+.row>[class^="col"].offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+
+.row>[class^="col"].offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+
+.row>[class^="col"].offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+
+.row>[class^="col"].offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+
+.row>[class^="col"].offset-1 {
+    margin-left: calc(100% / 12);
+}
+
+.row>[class^="col"].offset-0 {
+    margin-left: 0;
 }
