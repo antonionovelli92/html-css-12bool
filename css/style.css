@@ -1,14 +1,29 @@
 /* GENERICS */
 body {
     font-family: sans-serif;
+    color: white;
+
 }
 
 .row {
     border: 1px solid black;
+
+}
+
+.container>.row {
+    margin-bottom: 20px;
 }
 
 .row>[class^="col"] {
-    min-height: 80px;
-    background-color: lightskyblue;
+    min-height: 100px;
+    background-color: rgb(12, 116, 220);
     border: 1px solid white;
+    padding: 15px;
+}
+
+
+/* colonna dentro un'altra colonna */
+.row>[class^="col"] [class^="col"] {
+    background-color: greenyellow;
+
 }
